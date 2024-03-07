@@ -2,7 +2,7 @@
 
 # Build ipip_check binary
 FROM golang:1.21 AS go-build
-
+ 
 WORKDIR /opt
 
 COPY ./kubemarine/resources/scripts/source/ipip_check ./
